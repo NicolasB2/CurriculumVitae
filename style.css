@@ -4,65 +4,67 @@
     color: aliceblue;
 }
 
-.profile-banner{
-    background-image: url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80'); 
-    background-size: cover; 
-    height: 700px;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-.experience-banner{
+#profile-banner{
     background-image: url('https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); 
     background-size: cover; 
-    height: 700px;
+    padding: 6rem 0;
+    height: 750px;
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-.skill-banner{
-    background-image: url('https://images.unsplash.com/photo-1501959181532-7d2a3c064642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80'); 
+#education-section{
+    padding: 6rem 0;
+    background-color: aqua;
     background-size: cover; 
-    height: 700px;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    height: 100%;
+}
+
+#about-section{
+    padding: 6rem 0;
+    background-color: salmon;
+    background-size: cover; 
+    height: 600px;
+}
+
+#experience-section{
+    padding: 6rem 0;
+    background-color: aquamarine;
+    background-size: cover; 
+    height: 600px;
+}
+
+#skill-section{
+    padding: 6rem 0;
+    background-color: coral;
+    background-size: cover; 
+    height: 750px;
 }
 
 .containerPrf{
-    color: black;
+    color: white;
     position: absolute;
-    left: 70%;
-    top: 30%;
-    height: 200px;
-    margin-top: -100px; 
-    width: 400px;
-    margin-left: -200px;
+    left: 30%;
+    top: 60%;
     text-align: center;
+}
+
+.containerEdu{
+    color: black;   
+}
+
+.containerAbo{
+    color: black;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .containerExp{
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 160%;
-    height: 200px;
-    margin-top: -100px; 
-    width: 400px;
-    margin-left: -200px;
-    text-align: center;
+    color: black;
 }
 
 .containerSkl{
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 250%;
-    height: 200px;
-    margin-top: -100px; 
-    width: 400px;
-    margin-left: -200px;
-    text-align: center;
+    color: black;
 }
