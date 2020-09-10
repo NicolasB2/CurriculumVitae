@@ -4,8 +4,51 @@
     color: aliceblue;
 }
 
+.card-deck{
+    margin-top: 30px;
+}
+
+.card-img{
+    border-radius: 25px;
+}
+
+.card{
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+}
+
+.list-unstyled{
+    margin-top: 30px;
+}
+
+.media-img{
+    width:300px;
+    height:200px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.skill-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.progress{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.cont-skill{
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: black;
+    padding:30px;
+    color: white;
+}
+
 .carousel {
-    width:800px;
+    width:900px;
     height:500px;
 }
 
@@ -21,30 +64,32 @@
 
 #education-section{
     padding: 6rem 0;
-    background-color: aqua;
+    background-color: white;
     background-size: cover; 
     height: 100%;
+    color:black; 
 }
 
 #about-section{
     padding: 6rem 0;
-    background-color: salmon;
+    background-color:black;
     background-size: cover; 
-    height: 750px;
-}
-
-#experience-section{
-    padding: 6rem 0;
-    background-color: aquamarine;
-    background-size: cover; 
-    height: 600px;
+    height: 100%;
+    color:white;
 }
 
 #skill-section{
     padding: 6rem 0;
-    background-color: coral;
     background-size: cover; 
-    height: 750px;
+    height: 100%;
+}
+
+#experience-section{
+    padding: 6rem 0;
+    background-color:black;
+    background-size: cover; 
+    height: 100%;
+    color: white;
 }
 
 .containerPrf{
@@ -55,20 +100,12 @@
     text-align: center;
 }
 
-.containerEdu{
-    color: black;   
-}
-
 .containerAbo{
-    color: black;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.containerExp{
-    color: black;
-}
 
 .containerSkl{
     color: black;
