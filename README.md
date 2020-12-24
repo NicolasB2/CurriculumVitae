@@ -11,4 +11,3 @@ En conclusión, Bootstrap es una herramienta muy útil al momento de desarrollar
 
 Iconos tomados de https://fontawesome.com/<br>
 Imágenes tomadas de https://unsplash.com/<br>
-Componentes adaptados de https://getbootstrap.com/
